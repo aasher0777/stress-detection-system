@@ -1,7 +1,7 @@
 @echo off
-title NeuroPulse - Frontend Dashboard (React)
+title Amatarashu - Frontend Dashboard (React)
 echo ======================================================================
-echo Starting NeuroPulse React Monitoring Dashboard...
+echo Starting Amatarashu React Monitoring Dashboard...
 echo ======================================================================
 
 :: Automatically free port 3000 if another process is occupying it

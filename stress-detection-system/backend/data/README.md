@@ -1,4 +1,4 @@
-# 📊 NeuroPulse Dataset Directory
+# 📊 Amatarashu Dataset Directory
 
 This directory contains training, evaluation, and test datasets for the autonomic stress classification pipeline.
 

@@ -1,4 +1,4 @@
-name: NeuroPulse CI Pipeline
+name: Amatarashu CI Pipeline
 
 on:
   push:

@@ -176,7 +176,7 @@ from .config.db_config import get_database, is_mongo_connected
 async def health_check():
     return {
         "status": "healthy",
-        "service": "NeuroPulse Stress Detection Engine",
+        "service": "Amatarashu Stress Detection Engine",
         "mongodb_connected": is_mongo_connected(),
         "active_classifier": stress_analysis_service.active_classifier_name,
         "active_clients": len(websocket_manager.active_connections)

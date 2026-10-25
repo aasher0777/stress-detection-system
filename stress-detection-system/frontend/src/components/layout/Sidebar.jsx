@@ -20,7 +20,7 @@ export const Sidebar = ({ activeTab, onTabChange, activeClassifier, onClassifier
           </div>
           <div>
             <h1 className="font-extrabold text-base tracking-tight text-white flex items-center gap-1.5">
-              NeuroPulse
+              Amatarashu
               <span className="text-[10px] uppercase font-bold px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-400 border border-indigo-500/30">ML</span>
             </h1>
             <p className="text-[11px] text-slate-400 font-medium">Stress Detection Sys</p>

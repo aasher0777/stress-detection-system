@@ -1,4 +1,4 @@
-# 🧠 NeuroPulse: Real-Time Multi-Modal Stress Detection System
+# 🧠 Amatarashu: Real-Time Multi-Modal Stress Detection System
 ### *Physiological Telemetry, Early Dementia Cognitive Screening & Acute Stress Classification*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -12,7 +12,7 @@
 [![Zero Cost](https://img.shields.io/badge/Cost-%240%20Free%20Tier-success.svg)](https://opensource.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**NeuroPulse** is an enterprise-grade physiological telemetry, acute mental stress monitoring, and neurocognitive screening platform (also internally utilized as the Early Dementia screening module). 
+**Amatarashu** is an enterprise-grade physiological telemetry, acute mental stress monitoring, and neurocognitive screening platform (also internally utilized as the Early Dementia screening module). 
 
 The platform continuously streams multi-channel autonomic biometric data—**Photoplethysmography / Blood Volume Pulse (BVP)**, **Electrodermal Activity (EDA / GSR)**, and **Peripheral Skin Temperature (SKT)**—filters signals using 3rd-order digital Butterworth filters, extracts time- and frequency-domain physiological biomarkers, handles class imbalance via **SMOTE**, and performs real-time machine learning inference with calibrated **Random Forest** and **Support Vector Machine (RBF)** classifiers.
 
@@ -68,7 +68,7 @@ The platform continuously streams multi-channel autonomic biometric data—**Pho
 
 ## 🩺 Multi-Tier Clinical Patient Examination
 
-NeuroPulse provides a clinical patient roster with distinct physiological profiles:
+Amatarashu provides a clinical patient roster with distinct physiological profiles:
 
 | Patient ID | Name | Age | Profile & Autonomic Response | Diagnosed Clinical Tier | Recommendation / Action Plan |
 | :--- | :--- | :--- | :--- | :--- | :--- |

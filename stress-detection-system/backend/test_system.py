@@ -1,5 +1,5 @@
 """
-End-to-End Test & Verification Suite for NeuroPulse Stress Detection System.
+End-to-End Test & Verification Suite for Amatarashu Stress Detection System.
 Tests full pipeline without hardware:
 1. Virtual Bio-Sensor Telemetry Generation
 2. Butterworth Digital Signal Processing & Artifact Removal
@@ -31,7 +31,7 @@ from app.models.stress_state import StressLevel
 
 def run_suite():
     print("=" * 70)
-    print("🧠 NEUROPULSE: END-TO-END NO-HARDWARE SYSTEM VERIFICATION")
+    print("🧠 AMATARASHU: END-TO-END NO-HARDWARE SYSTEM VERIFICATION")
     print("=" * 70)
 
     # 1. Virtual Telemetry Generator Test

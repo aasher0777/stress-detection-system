@@ -136,7 +136,7 @@ def load_and_prepare_dataset(sample_size_train=50000, sample_size_test=10000):
 
 def train_market_ready_models():
     print("=" * 80)
-    print("🧠 NEUROPULSE: MARKET-READY HRV MODEL TRAINING & CLINICAL BENCHMARKING")
+    print("🧠 AMATARASHU: MARKET-READY HRV MODEL TRAINING & CLINICAL BENCHMARKING")
     print("=" * 80)
 
     train_df, test_df = load_and_prepare_dataset(sample_size_train=40000, sample_size_test=8000)

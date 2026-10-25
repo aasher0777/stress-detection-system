@@ -1,5 +1,5 @@
 """
-Model Training & Evaluation Pipeline for NeuroPulse Stress Detection System.
+Model Training & Evaluation Pipeline for Amatarashu Stress Detection System.
 Reads train/test CSV data from backend/data/, applies SMOTE class balancing,
 trains both Random Forest and SVM classifiers, evaluates metrics,
 and saves model weights to backend/saved_models/.
@@ -43,7 +43,7 @@ def load_dataset(filename: str) -> pd.DataFrame:
 
 def train_and_evaluate(train_file="sample_train_dataset.csv", test_file="sample_test_dataset.csv"):
     print("=" * 70)
-    print("🧠 NEUROPULSE: MODEL TRAINING & EVALUATION PIPELINE")
+    print("🧠 AMATARASHU: MODEL TRAINING & EVALUATION PIPELINE")
     print(f"Data Directory: {DATA_DIR}")
     print("=" * 70)
 

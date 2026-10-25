@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-The following versions of **NeuroPulse** currently receive security updates:
+The following versions of **Amatarashu** currently receive security updates:
 
 | Version | Supported          |
 | :---    | :---               |

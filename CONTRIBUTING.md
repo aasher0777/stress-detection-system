@@ -1,6 +1,6 @@
-# Contributing to NeuroPulse
+# Contributing to Amatarashu
 
-Thank you for your interest in contributing to **NeuroPulse**! We welcome contributions from researchers, software engineers, and clinicians.
+Thank you for your interest in contributing to **Amatarashu**! We welcome contributions from researchers, software engineers, and clinicians.
 
 ---
 

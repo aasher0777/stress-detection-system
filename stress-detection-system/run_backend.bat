@@ -1,7 +1,7 @@
 @echo off
-title NeuroPulse - Backend Server (FastAPI)
+title Amatarashu - Backend Server (FastAPI)
 echo ======================================================================
-echo Starting NeuroPulse Stress Detection Backend (Python / FastAPI)...
+echo Starting Amatarashu Stress Detection Backend (Python / FastAPI)...
 echo ======================================================================
 
 :: Automatically free port 8000 if another process is occupying it

@@ -1,7 +1,7 @@
 @echo off
-title NeuroPulse - System Launcher
+title Amatarashu - System Launcher
 echo ======================================================================
-echo Launching NeuroPulse Stress Detection System (Full Stack)
+echo Launching Amatarashu Stress Detection System (Full Stack)
 echo ======================================================================
 
 :: Clear lingering processes on ports 8000 and 3000 to prevent bind errors
@@ -13,12 +13,12 @@ for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":3000" ^| findstr "LISTENING
 )
 
 echo 1. Launching Backend on http://localhost:8000
-start "NeuroPulse Backend" cmd /k "%~dp0run_backend.bat"
+start "Amatarashu Backend" cmd /k "%~dp0run_backend.bat"
 
 timeout /t 3 /nobreak >nul
 
 echo 2. Launching Frontend on http://localhost:3000
-start "NeuroPulse Frontend" cmd /k "%~dp0run_frontend.bat"
+start "Amatarashu Frontend" cmd /k "%~dp0run_frontend.bat"
 
 echo.
 echo Both servers initiated!
