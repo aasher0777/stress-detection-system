@@ -1,0 +1,50 @@
+{
+  "status": "market_ready",
+  "dataset_name": "SWELL-KW HRV Stress Telemetry",
+  "train_samples_evaluated": 64785,
+  "test_samples_evaluated": 8000,
+  "random_forest": {
+    "accuracy": 1.0,
+    "f1_score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "top_features": [
+      {
+        "eda_scl": 0.3008
+      },
+      {
+        "eda_scr_peaks": 0.3
+      },
+      {
+        "eda_mean": 0.1905
+      },
+      {
+        "temp_mean": 0.1082
+      },
+      {
+        "temp_slope": 0.0909
+      },
+      {
+        "mean_hr": 0.0083
+      },
+      {
+        "rmssd": 0.0008
+      },
+      {
+        "sdnn": 0.0003
+      },
+      {
+        "lf_hf_ratio": 0.0002
+      },
+      {
+        "pnn50": 0.0001
+      }
+    ]
+  },
+  "svm": {
+    "accuracy": 1.0,
+    "f1_score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0
+  }
+}

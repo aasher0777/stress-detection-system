@@ -1,0 +1,41 @@
+# ==============================================================================
+# NeuroPulse - Git Attributes Configuration
+# Cross-Platform Line Ending & Binary Format Normalization
+# ==============================================================================
+
+# Set default behavior to automatically normalize line endings
+* text=auto eol=lf
+
+# Windows Batch scripts MUST preserve CRLF line endings
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Source code files
+*.py text eol=lf diff=python
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary files - Do not modify line endings
+*.joblib binary
+*.pkl binary
+*.pickle binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
